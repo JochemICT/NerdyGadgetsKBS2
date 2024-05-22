@@ -1,0 +1,11 @@
+#bestelPagina {
+    position: absolute;
+    margin-top: 5%;;
+    left: 10%;
+    width: 70%;
+}
+
+#bestelPagina > form > input {
+    all: revert;
+    position:relative;
+}

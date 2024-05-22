@@ -1,0 +1,105 @@
+#cartMain {
+    position: relative;
+    left: 10%;
+    width: 70%;
+}
+
+
+.productBox {
+    position: relative;
+    width: 67%;
+    height: 250px;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+}
+
+.productBox > .imgDiv {
+    flex: 1 1 auto;
+    object-fit: contain;
+    margin: 10px;
+    width: 200px;
+}
+
+.productBox > .imgDiv > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.productAantal {
+    all: revert;
+}
+
+.productBox > .warnText {
+    all: revert;
+    text-decoration: none ;
+    color: #FFFFFF;
+}
+
+.productLink {
+    font-style: normal;
+    text-decoration: none ;
+    color: #FFFFFF;
+}
+.productLink:hover > text {
+    font-style: normal;
+    text-decoration: none; 
+    color: #FFFFFF;
+    filter: brightness(70%);
+}
+
+#overzichtBox {
+    position: fixed;
+    top: 22.25%;
+    left: 60%;
+    width: 30%;
+    height: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#overzichtBox > #titel {
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 150%;;
+}
+
+.billItem {
+    all: revert;
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.billItem > .billName {
+    flex-direction: column;
+    flex: 0 0 auto;
+    margin-left: 5%;
+}
+
+.billItem > .billPrice {
+    flex-direction: column;
+    flex: 1 1 auto;
+    text-align: right;
+    margin-right: 5%;
+}
+
+#overzichtBox > .totaalBox {
+    margin-bottom: 3%;
+}
+
+#overzichtBox > #bestelDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+#bestelDiv > #bestelKnop {
+    height: 100%;
+    width: 80%;
+    border-radius: 8px;
+}

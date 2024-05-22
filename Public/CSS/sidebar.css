@@ -1,0 +1,65 @@
+.Sidebar {
+    /* dit bepaalt de positie en grootte van de hele sidebar */
+    top: 31.665%;
+    left: 2%;
+    position: fixed;
+    width: 17%;
+    height: 60%;
+
+    /* bepaalt meer style van de sidebar */
+    background-color: transparent;
+
+}
+
+.SearchBar {
+    /* dit haalt alle vorige styling van select elementen weg */
+    all: revert;
+
+    /* dit bepaalt de positie en grootte van de zoektext vlak */
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    height: 7%;
+    width: 50%;
+}
+
+#SearchButton {
+    /* dit zorgt ervoor dat je niet de knop kan selecteren */
+    user-select: none;
+    
+    /* dit bepaalt de positie en grootte van de knop */
+    font-size: 28px;
+    position: absolute;
+    top: 4%;
+    left: 65%;
+}
+
+#SearchButton:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.ProductCountSelector {
+    /* dit haalt alle vorige styling van select elementen weg */
+    all: revert;
+
+    /* dit bepaalt de positie en grootte van de select element */
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    height: 7%;
+    width: 25%;
+}
+
+.SortSelector {
+    /* dit haalt alle vorige styling van select elementen weg */
+    all: revert;
+
+    /* dit bepaalt de positie en grootte van de select element */
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    height: 7%;
+    width: 50%;
+    width: 50%;
+}   
