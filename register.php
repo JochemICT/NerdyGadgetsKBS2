@@ -42,10 +42,10 @@ if (isset($_SESSION['emailAlreadyExists'])) {
     unset($_SESSION['emailAlreadyExists']);
 ?><i>Email is al gelinkt aan account.</i></br><?php
 }
-// if (isset($_SESSION['cityNotFound'])) {
-//     unset($_SESSION['cityNotFound']);
-// ?><i>Adres niet gevonden.</i></br><?php
-// }
+if (isset($_SESSION['cityNotFound'])) {
+    unset($_SESSION['cityNotFound']);
+?><i>Adres niet gevonden.</i></br><?php
+}
 if (isset($_SESSION['Email incorrect format'])) {
     unset($_SESSION['Email incorrect format']);
 ?><i>Email is niet juist geformatteerd.</i></br><?php
